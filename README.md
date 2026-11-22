@@ -406,6 +406,7 @@ voiceclone detect suspect.mp3 another.wav
 ```
 suspect.mp3: made with pratidhvani (detector 1.00, 16/16 tag bits)
 another.wav: no watermark found (detector 0.00, 8/16 tag bits)
+no watermark doesn't prove a recording is genuine: the code can be changed, and heavy noise can hide it
 ```
 
 The command exits 0 only when every file carries the pratidhvani tag, and
